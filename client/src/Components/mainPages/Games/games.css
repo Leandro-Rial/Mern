@@ -1,0 +1,90 @@
+.bg-games {
+    background: url(../../../image//SpiderMan.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.bg-games h1 {
+    color: #fff;
+    font-size: 4rem;
+}
+
+/* View-game */
+.view-game {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: #a1a1a9;
+}
+
+.view-game .img-bg {
+    width: 500px;
+    height: 300px;
+}
+
+.view-game .img-bg img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.view-game .content-view-game {
+    width: 500px;
+    padding: 20px;
+    line-height: 2rem;
+}
+
+.view-game .content-view-game  h1{
+    margin-bottom: 10px;
+}
+
+/* GAMES-CARDS */
+.games-cards {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10%;
+    height: 80vh;
+}
+
+ .games-cards .cards-g {
+    width: 400px;
+    height: 100%;
+    margin: 10px;
+    padding: 20px;
+}
+
+ .games-cards .cards-g h1 {
+    font-size: 1.5rem;
+}
+
+ .games-cards .cards-g p {
+    font-size: .9rem;
+}
+
+ .games-cards .cards-g .img{
+    width: 100%;
+    height: 400px;
+}
+
+ .games-cards .cards-g img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* FOOTER */
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}

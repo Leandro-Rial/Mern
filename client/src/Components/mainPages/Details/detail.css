@@ -1,0 +1,42 @@
+.detail {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.detail .box-detail {
+    padding: 30px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.detail .box-detail .row {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.detail .box-detail .row h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.detail .box-detail .row h6 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: mediumslateblue;
+}
+
+.detail .box-detail span {
+    color: mediumslateblue;
+    font-size: 1.1rem;
+}
+
+.detail .box-detail p {
+    padding: 10px 0;
+}

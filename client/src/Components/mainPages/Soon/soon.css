@@ -1,0 +1,42 @@
+.page_products {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin: 20px 0;
+    width: 80%;
+}
+
+.vertical_view {
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background: #070a1a;
+    box-shadow: 0 0 15 #ddd;
+    padding: 20px 30px;
+}
+
+.vertical_view .products_vertical a {
+    text-decoration: none;
+}
+
+.vertical_view .products_vertical {
+    margin: 10px 0;
+}
+
+.vertical_view .products_vertical h1 {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-weight: 100;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio&family=Open+Sans&family=Zen+Dots&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  background: #f6f6f7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Antonio', sans-serif;
+}

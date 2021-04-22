@@ -1,0 +1,34 @@
+.opinions-general {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.opinions {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px 0;
+}
+
+
+.opinions .cards-opinions .content-opinion {
+    width: 300px;
+    border: 1px solid #000;
+    margin: 5px;
+    padding: 20px;
+}
+
+.opinions .cards-opinions .content-opinion h1 {
+    text-transform: uppercase;
+}
+
+.opinions .cards-opinions .content-opinion hr {
+    margin: 10px 0;
+}
+
+.opinions .cards-opinions .content-opinion p {
+    font-size: .9rem;
+}
